@@ -1,0 +1,10 @@
+body {
+	background-image: url("studytravel.png");
+	background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.form-group{
+	margin-top: 10px;
+}

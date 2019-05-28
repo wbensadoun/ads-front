@@ -1,0 +1,22 @@
+body{
+    background-color: #F5F5F5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.annonce-container{
+background-color: #fff;
+height: 145px;
+border-radius: 5px;
+}
+.nophoto{
+    margin: 5px;
+    height: 135px;
+    background-color: #F5F5F5;
+    background-image: url("/nophoto.png");
+    background-repeat: no-repeat;
+    background-size: 7rem 5.5rem;
+    background-position: 50%;
+}

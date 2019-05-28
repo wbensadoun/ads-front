@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta http-equive="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="import" href="adsinscription.html">
+    <link rel="import" href="adsindex.html">
+    <link href="adsdeposerannonce.css" rel="stylesheet">
+    </head>
+    <body>        
+         <nav class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav">
+          <nav class="navbar-brand">
+            <li><a href="adsindex.html">ADSPROJECT</a></li>
+         </nav>            
+         <li><a href="adsannonces.html">Annonces</a></li>     
+         <li><a href="adsmesannonces.html">Mes Annonces</a></li>          
+         <li><a href="adsmessage.html">Messagerie</a></li>  
+          </ul>
+          <form class="navbar-form navbar-right inline-form">
+            <div class="form-group">
+              <input type="search" class="input-sm form-control" placeholder="Recherche">
+              <button type="submit" class="btn btn-primary btn-sm" name="rechercher"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+            </div>
+          </form>
+        </div>
+      </nav>
+      
+        <center><h3>votre annonce</h3></center>
+        <div class="container">  
+<form>
+         <div class="row">
+        <label for="categorie"  name="categories" class="col-md-3">Catégorie :</label>
+        <div class="form-group col-md-4">
+          <select  id="categorie" class="form-control">
+            <option selected>Choisir :</option>
+            <option disabled>Catégorie n1</option>
+            <option>akgjagkjga</option>
+            <option>jgjgjgirhja</option>
+            <option>gjagjri</option>
+            <option>akgjagkjga</option>
+            <option>jgjgjgirhja</option>
+          </select>
+          <span id="categoriesError" style="color: red; font-size: 14px;"></span>
+        </div>
+      </div>
+
+        <div class="row">
+        <div class="form-group">
+          <label  class="col-md-3"  class="form-check-label" for="annonces">Type d'annonces :</label>        
+          <input class="form-check-input" class="form-control" id="offre" name="type" type="radio" value="PROPOSITION"> 
+          <label for="offres">Offres</label> &nbsp;
+          <input class="form-check-input" class="form-control" id="demande" name="type" type="radio" value="DEMANDE">
+          <label for="demandes">Demandes</label>     
+        	<span id="typeError" style="color: red; font-size: 14px;"></span>
+        </div>
+      </div>
+      <div class="container-fluid">
+      <div class="row" >
+          <div class="form-group">
+          <label>titre de l'annonce :</label>   
+          <input type="textarea" class="form-control" name="titre" id="titre"/>
+          <span id="titreError" style="color: red; font-size: 14px;"></span>
+      </div>
+      </div>
+      
+      <div class="row"> 
+        <div class="form-group">
+          <label for="description">Description de l'annonce :</label>
+          <textarea  class="form-control"name="description" id="description" rows="6" class="textarea full" maxlength="4000">
+          </textarea>
+          <span id="descriptionError" style="color: red; font-size: 14px;"></span>
+        </div>
+      </div>
+    </div>
+  <!--<div class="row">
+  <label class="col-md-3">joindre une photo :</label>
+      <div class="form-group">  
+      </div>
+      <div class="row">
+           <input type="file" name="pictures">
+      </div>
+   </div>-->
+
+      <div class="row">
+        <div class="form-group">
+          <label for="number" class="col-md-2">Prix :</label>
+          <div class="col-md-3">
+            <div class="input-group">
+              <input type="number" name="number" id="number" class="form-control" maxlength="6">
+              <span class="input-group-addon">€</span>
+              <span id="prixError" style="color: red; font-size: 14px;"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+          
+  
+  <button type="button" class="btn btn-success" id="deposerannonceId">valider <span class="glyphicon glyphicon-ok">
+  </span></button>  
+  <button type="button" class="btn btn-danger" name="annuler"
+  onclick="document.location.href='adsindex.html'">Annuler</button>  
+</form>
+</body>
+<script type="text/javascript" src="deposerannonce.js"></script>
+</html>

@@ -1,0 +1,31 @@
+
+a{
+
+} 
+p{
+	
+}
+
+h1{
+	font-weight: fat;
+}
+
+body {
+
+	background-image: url("studytravel.png");
+	background-size: cover;         
+    background-position: top;
+	}
+
+nav{
+
+}
+footer{
+	
+}
+.form-group{
+	margin-top: 10px;
+}
+ul{
+	position: center;
+}

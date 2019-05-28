@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equive="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="import" href="adsinscription.html">
+    <link rel="import" href="adsindex.html">
+    <link href="adslogin.css" rel="stylesheet">
+    </head>
+    <body>        
+         <nav class="navbar navbar-static-top navbar-inverse">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+             <nav class="navbar-brand">
+            <li><a href="adsindex.html">ADSPROJECT</a></li>
+            </nav>
+            <li><a href="adsannonces.html">Annonces</a></li>    
+            <li> <a href="adsdeposerannonce.html">Déposer une annonce</a> </li>
+            <li> <a href="adsmesannonces.html">Mes Annonces</a></li>
+            <li> <a href="adsmessage.html">Messagerie</a></li>
+          </ul>
+          <form class="navbar-form navbar-right inline-form">
+            <div class="form-group">
+              <input type="search" class="input-sm form-control" placeholder="Recherche">
+              <button type="submit" class="btn btn-primary btn-sm" name="rechercher"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+            </div>
+          </form>
+        </div>
+      </nav>
+      
+        <center><h1>Connectez vous</h1></center>
+        <div class="container">  
+<form>
+                <div class="row">
+        
+                <div class="form-group">
+                              <label class="col-md-3"></label>
+                <div class="col-md-6">
+                              <input class="form-control" type="text" name="login" placeholder="Pseudo"/>
+                              <span id="loginError" style="color: red; font-size: 12px;"></span>
+      </div>
+      </div>
+      </div>
+                <div class="row">
+                <div class="form-group">
+                              <label class="col-md-3"></label>
+                <div class="col-md-6">
+                              <input class="form-control" type="password" name="mdp" placeholder="Mot de passe" />
+                              <span id="mdpError" style="color: red; font-size: 18px;"></span>
+      </div>
+      </div>
+      </div>
+                <div class="form-group">
+            <center><button type="button" id="loginId" class="btn btn-info">Connexion <span class="glyphicon glyphicon-user"></span></button>
+              <a href="adsinscription.html"><button type="button" class="btn btn-primary">Inscrivez vous ? </button></a></center>
+      </div>
+      </div>
+</form>
+</body>
+<script type="text/javascript" src="login.js"></script>
+</html>

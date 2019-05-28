@@ -1,0 +1,49 @@
+body {
+	
+	background-image: url("studytravel.png");
+	background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+
+#description {
+    padding: .1rem 1rem;
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-shadow: 0 0 black;
+    word-wrap: break-word;
+    margin: 0px 288px 0px 0px; 
+    width: 90%; 
+    height: 150px;
+}
+
+#titre{
+	margin: 0px 693px 0px 0px;
+	width: 476px; 
+	height: 35px;
+	padding: .1rem 1rem;
+    border: 1px solid black;
+    background: #fff;
+    border-radius: 4px;
+    text-shadow: 0 0 black;
+    word-wrap: break-word;
+}
+
+.form-group{
+	margin-top: 10px;
+}
+
+textarea{
+	min-height: 5em;
+    vertical-align: top;
+    font-family: inherit;
+    font-size: inherit;
+    resize: vertical;
+    -webkit-appearance: textarea;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    cursor: text;
+    white-space: pre-wrap;
+}
