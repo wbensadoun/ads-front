@@ -14,7 +14,7 @@ border-radius: 5px;
 .nophoto{
     margin: 5px;
     height: 135px;
-    background-color: #F5F5F5;
+    background-color: grey;
     background-image: url("/nophoto.png");
     background-repeat: no-repeat;
     background-size: 7rem 5.5rem;

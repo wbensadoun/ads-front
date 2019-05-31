@@ -13,21 +13,29 @@
          <nav class="navbar navbar-fixed-top navbar-inverse">
         <div class="container-fluid">
           <ul class="nav navbar-nav">
-             <li><a href="adsdeposerannonce.html"> Déposer une Annonce</a> </li>
-             <li><a href="adslogin.html">Se connecter</a> </li>
-             <li><a href="adsmessagerie.html">Messagerie</a> </li>
-             <li><a href="adsinscription.html">S'inscrire</a></li>
+              <nav class="navbar-brand">
+                  <li><a href="adsindex.html">ADSPROJECT</a></li>
+                       </nav> 
+             <li><a href="adsdeposerannonce.html" class="depose-ann"> Déposer Une Annonce</a> </li>
+             <li><a href="adslogin.html" class="login">Se Connecter</a> </li>
+             <li><a href="adsmessagerie.html" class="mess">Messagerie</a> </li>
+             <li><a href="adsmesannonces.html" class="mes-ann">Mes Annonces</a> </li>
+             <li><a href="adsinscription.html" class="inscription">S'inscrire</a></li>
+             <li><a href="adsindex.html" class="deconnection">Déconnection</a></li>
+
           </ul>
           <form class="navbar-form navbar-right inline-form">
             <div class="form-group">
-              <input type="search" class="input-sm form-control" placeholder="Recherche">
-              <button type="submit" class="btn btn-primary btn-sm" name="rechercher"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+              <input type="search" class="input-sm form-control input-research" placeholder="Recherche">
+              <button type="submit" class="btn btn-primary btn-sm btn-research" name="rechercher"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
             </div>
           </form>
         </div>
       </nav>
         
-
+      <ul id="annoncesId">
+      </ul>
 </body>
 <script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="connection.js"></script>
 </html>

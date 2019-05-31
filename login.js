@@ -23,6 +23,7 @@ $('#loginId').on('click', function(e){
         dataType:"json",
         success: function(response){
             console.log( "Data Loaded: ", response);
+            document.cookie = login;
             history.pushState({url: "/adsindex.html"}, "", "adsindex.html");
             document.location.reload(true);
             
